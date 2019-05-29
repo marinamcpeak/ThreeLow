@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9C5D6D58229F0ADE0005A7B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5D6D57229F0ADE0005A7B9 /* main.m */; };
+		9C5D6D60229F0B660005A7B9 /* Dice.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5D6D5F229F0B660005A7B9 /* Dice.m */; };
+		9C5D6D63229F448A0005A7B9 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5D6D62229F448A0005A7B9 /* GameController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		9C5D6D54229F0ADE0005A7B9 /* ThreeLow */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ThreeLow; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C5D6D57229F0ADE0005A7B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C5D6D5E229F0B660005A7B9 /* Dice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dice.h; sourceTree = "<group>"; };
+		9C5D6D5F229F0B660005A7B9 /* Dice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dice.m; sourceTree = "<group>"; };
+		9C5D6D61229F448A0005A7B9 /* GameController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		9C5D6D62229F448A0005A7B9 /* GameController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				9C5D6D57229F0ADE0005A7B9 /* main.m */,
+				9C5D6D61229F448A0005A7B9 /* GameController.h */,
+				9C5D6D62229F448A0005A7B9 /* GameController.m */,
+				9C5D6D5E229F0B660005A7B9 /* Dice.h */,
+				9C5D6D5F229F0B660005A7B9 /* Dice.m */,
 			);
 			path = ThreeLow;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C5D6D63229F448A0005A7B9 /* GameController.m in Sources */,
+				9C5D6D60229F0B660005A7B9 /* Dice.m in Sources */,
 				9C5D6D58229F0ADE0005A7B9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
