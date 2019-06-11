@@ -10,6 +10,7 @@
 		9C5D6D58229F0ADE0005A7B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5D6D57229F0ADE0005A7B9 /* main.m */; };
 		9C5D6D60229F0B660005A7B9 /* Dice.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5D6D5F229F0B660005A7B9 /* Dice.m */; };
 		9C5D6D63229F448A0005A7B9 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5D6D62229F448A0005A7B9 /* GameController.m */; };
+		9C5D6D69229F552B0005A7B9 /* InputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5D6D68229F552B0005A7B9 /* InputHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		9C5D6D5F229F0B660005A7B9 /* Dice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dice.m; sourceTree = "<group>"; };
 		9C5D6D61229F448A0005A7B9 /* GameController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
 		9C5D6D62229F448A0005A7B9 /* GameController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
+		9C5D6D67229F552B0005A7B9 /* InputHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputHandler.h; sourceTree = "<group>"; };
+		9C5D6D68229F552B0005A7B9 /* InputHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				9C5D6D62229F448A0005A7B9 /* GameController.m */,
 				9C5D6D5E229F0B660005A7B9 /* Dice.h */,
 				9C5D6D5F229F0B660005A7B9 /* Dice.m */,
+				9C5D6D67229F552B0005A7B9 /* InputHandler.h */,
+				9C5D6D68229F552B0005A7B9 /* InputHandler.m */,
 			);
 			path = ThreeLow;
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 				9C5D6D63229F448A0005A7B9 /* GameController.m in Sources */,
 				9C5D6D60229F0B660005A7B9 /* Dice.m in Sources */,
 				9C5D6D58229F0ADE0005A7B9 /* main.m in Sources */,
+				9C5D6D69229F552B0005A7B9 /* InputHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

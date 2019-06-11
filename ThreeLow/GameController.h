@@ -12,7 +12,27 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface GameController : NSObject
 
+//@property NSMutableArray *arrayOfDice;
+@property NSMutableArray *arrayOfUnheldDice;
+@property NSMutableArray *arrayOfHeldDice;
+//@property NSMutableArray *holdDice;
+@property int currentScore;
 
+- (instancetype) init;
+
+- (void) testDice;
+
+- (void) createDice;
+
+- (void) printDice;
+
+- (void) printScore;
+
+- (void) rollDice;
+
+- (void) resetDice;
+
+- (void) holdDice: (int) position;
 
 @end
 

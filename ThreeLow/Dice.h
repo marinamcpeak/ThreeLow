@@ -12,21 +12,14 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-// Interface - Personal Notes: This is an interface declaration.  It must begin with @interface and end with @end.  These essentially designate the beginning and the end of the class interface definition.  Following the @interface is a name and this name MUST match the name of the .h and .m files.  The name is followed by a colon and another name.  The colon is indicating that the name to follow is the parent class of this class.  In this case, the parent is NSObject, which Dice will inherit all the properties and methods of.  NSObjeect is a generic object class that defines some basic structuree about objects in Objective-C.  However, classes can inherit from any other class.
 @interface Dice : NSObject
 
-// Property - Personal Notes: Properties are data items about the object.  In this case, a regular variable declaration that includes the datatype (Int -> integer) and a name ("face"). The name face was used because each "face" of a die will have a value that can be represented as an integer (numbers 1-6).
 @property int face;
 
-// Methods - Personal Notes: The following are methods, but they're only the names associated with each method.  Known as the method signatures.  The indicate what kind of data will be returned (if any) and what parameters are required to call the method.  Instance methods require an instance of the class to be called. For example, in the main.m file an instance of the class dice will have to be created before this method can be called.
-
-// Personal Notes: This is an instance method (indicated by the dashed line in front) that will return an instancetype.  This method will return an instance of the class (Dice), which contains this method. init is used to initialize a new object immediately after memory for it has been allocated.
 - (instancetype) init;
 
-// Personal Notes: An instance method named visibleFaceOfDie that will return the date type NSString.
 - (NSString *) visibleFaceOfDie;
 
-// Personal Notes: The rollDice method, does not have any parameters, nor does it return anything (indicated by void). It is also an instance method.
 - (void) rollDice;
 
 @end
